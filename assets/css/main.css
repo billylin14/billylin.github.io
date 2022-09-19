@@ -25,6 +25,16 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+	.float-img {
+		display: inline-block;
+		float:left;
+		width: 10%;
+	}
+	.float-text {
+		display: inline-block;
+		float:left;
+		width: 90%;
+	}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -2108,6 +2118,11 @@ input, select, textarea {
 			display: block;
 		}
 
+		img.list {
+			width: 50%;
+			height: auto;
+		}
+
 		.image.left {
 			float: left;
 			margin: 0 1.5em 1em 0;
@@ -2150,6 +2165,8 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 100%;
 			}
+		
+		
 
 /* List */
 
