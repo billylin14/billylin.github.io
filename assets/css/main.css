@@ -35,6 +35,7 @@ section, summary, time, mark, audio, video {
 		float:left;
 		width: 90%;
 	}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
